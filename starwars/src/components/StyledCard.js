@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 
 const StyledCard = styled.div`
-   color: palevioletred;
+   color: #feda4a;
    border: 2px solid palevioletred;
-   background: papayawhip;
+   background: black;
    border-radius: 10px;
    width: 350px;
    display: flex;
@@ -14,6 +14,13 @@ const StyledCard = styled.div`
    justify-content: center;
    padding: 20px;
    margin: 10px auto;
+
+   h1 {
+       color: #feda4a;
+       text-decoration: underline;
+       text-decoration-style: dotted;
+       text-decoration-color: palevioletred;
+   }
    
 `;
 
