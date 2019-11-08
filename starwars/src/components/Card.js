@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-const Card = () => {
+const Card = (props) => {
 
 
   return (
     <div className="Card">
-      test
+      <h1>{props.people.name}</h1>
     </div>
   );
 }

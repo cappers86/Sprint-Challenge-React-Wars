@@ -24,7 +24,7 @@ useEffect (() => {
      {
          people.map((people, index) => {
              return(
-                 <Card key={index}/>
+                 <Card key={index} people={people}/>
              )
          })
      }
