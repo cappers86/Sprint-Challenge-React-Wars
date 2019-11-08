@@ -22,9 +22,9 @@ useEffect (() => {
   return (
     <div className="CardContainer">
      {
-         people.map(people => {
+         people.map((people, index) => {
              return(
-                 <Card />
+                 <Card key={index}/>
              )
          })
      }
