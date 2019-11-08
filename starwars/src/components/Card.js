@@ -1,11 +1,12 @@
 import React from 'react';
-
+import StyledCard from './StyledCard';
 
 const Card = (props) => {
 
 
   return (
-    <div className="Card">
+    
+    <StyledCard>
       <h1>{props.people.name}</h1>
       <h2>Birth year: {props.people.birth_year}</h2>
       <h2>Gender: {props.people.gender}</h2>
@@ -14,7 +15,7 @@ const Card = (props) => {
       <h2>Mass: {props.people.mass}</h2>
       <h2>Skin color: {props.people.skin_color}</h2>
       
-    </div>
+      </StyledCard>
   );
 }
 
